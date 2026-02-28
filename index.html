@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adithya Raj | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Adithya Raj" />
+    <link rel="icon" type="image/svg+xml" href="placeholder.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="starfield"></canvas>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#connect">Connect</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Home Section -->
+      <section class="hero-home" id="home">
+        <h1 class="hero-name">Adithya Raj</h1>
+        <div class="hero-captions">
+          <span class="bold-caption">Learn</span>
+          <span class="bold-caption">Code</span>
+          <span class="bold-caption">Innovate</span>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="about-card simple-about-card">
+          <div class="about-shell">
+            <div class="about-shell-grid">
+              <div class="about-photo-col">
+                <div class="about-photo-ring">
+                  <img src="ADITHYA RAJ.jpg" alt="Portrait of Adithya Raj" class="about-photo" />
+                </div>
+               
+              </div>
+              <div class="about-text-col">
+                <h2 class="about-heading">
+                  
+                  <span class="about-heading-main">The person behind the code</span>
+                </h2>
+                <div class="about-highlight-row">
+                  <span class="about-highlight-line"></span>
+                  <span class="about-highlight-dot"></span>
+                  <span class="about-highlight-line"></span>
+                </div>
+                <p class="about-short">
+                  I'm a Computer Science student who loves building creative solutions and exploring new technologies.<br />
+                  I enjoy working on real-world projects, learning modern programming languages, and collaborating with others to make an impact.
+                </p>
+                <ul class="about-tags">
+                  <li>Creative problem-solver</li>
+                  <li>Real-world projects</li>
+                  <li>Always learning</li>
+                  <li>Collaborative mindset</li>
+                  <li>Self-driven</li>
+                  <li>Curious by default</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects Section -->
+      <section class="projects-section" id="projects">
+        <div class="project-carousel">
+          <button class="project-nav-btn project-nav-btn--prev" id="prev-project-btn" aria-label="Previous project">
+            &#8592;
+          </button>
+          <div class="project-track">
+            <div class="project-card project1-bg project-card--side" id="project-card-left">
+              <h2 id="project-title-left">Project 3</h2>
+              <p id="project-desc-left" style="margin-top: 1.2rem; margin-bottom: 1.2rem;">Previous project</p>
+              <a id="project-git-left" class="project-git-link" href="#" target="_blank" rel="noopener" aria-label="GitHub (previous project)">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon" />
+              </a>
+            </div>
+            <div class="project-card project1-bg project-card--center" id="project-card-center">
+              <h2 id="project-title-center">Project Title 1</h2>
+              <p id="project-desc-center" style="margin-top: 1.2rem; margin-bottom: 1.2rem;">Description for project 1.</p>
+              <a id="project-git-center" class="project-git-link" href="https://github.com/Adii246/Tasks-manage" target="_blank" rel="noopener" aria-label="GitHub (current project)">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon" />
+              </a>
+            </div>
+            <div class="project-card project1-bg project-card--side" id="project-card-right">
+              <h2 id="project-title-right">Project 2</h2>
+              <p id="project-desc-right" style="margin-top: 1.2rem; margin-bottom: 1.2rem;">Next project</p>
+              <a id="project-git-right" class="project-git-link" href="#" target="_blank" rel="noopener" aria-label="GitHub (next project)">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github-icon" />
+              </a>
+            </div>
+          </div>
+          <button class="project-nav-btn project-nav-btn--next" id="next-project-btn" aria-label="Next project">
+            &#8594;
+          </button>
+        </div>
+        <div class="projects-internships">
+          <h2 class="projects-subheading">Internship Experience</h2>
+          <div class="internship-list">
+            
+            <article class="internship-card">
+              <h3 class="internship-role">Virtual Intern – Internship 6.0</h3>
+              <p class="internship-meta">Infosys · Virtual Program</p>
+              <p class="internship-desc">
+                Successfully completed the Infosys Virtual Internship 6.0 program, gaining exposure to industry-relevant 
+                technologies, professional practices, and real-world business problem scenarios.
+              </p>
+            </article> 
+<article class="internship-card">
+  <h3 class="internship-role">Project Intern – The Nexus Project</h3>
+  <p class="internship-meta">St. Joseph's College of Engineering and Technology, Palai · 1 June 2025 – 30 June 2025</p>
+  <p class="internship-desc">
+    Contributed to the development of "The Nexus Project", collaborating with peers to design, 
+    implement, and test project modules while applying software development principles in a practical environment.
+  </p>
+</article>
+
+
+<article class="internship-card">
+  <h3 class="internship-role">Python Programming Intern</h3>
+  <p class="internship-meta">KELTRON · 25 June 2024 – 8 July 2024</p>
+  <p class="internship-desc">
+    Completed hands-on training in Python programming, worked on practical coding exercises, 
+    and gained experience in core concepts such as data structures, functions, and problem-solving techniques.
+  </p>
+</article>
+          </div>
+        </div>
+      </section>
+      <!-- Connect Section -->
+      <section class="connect-section" id="connect">
+        <h1 class="hero-name">Let's Connect</h1>
+        <div class="about-card">
+        </div>
+        <div class="connect-links">
+          <a href="https://www.linkedin.com/in/adithya-raj-94396627b" target="_blank" rel="noopener" class="connect-icon connect-icon--linkedin" aria-label="LinkedIn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn logo" class="connect-icon-logo" />
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/Adii246" target="_blank" rel="noopener" class="connect-icon" aria-label="GitHub">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo" class="connect-icon-logo" />
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:adithyaraj2026@cs.sjcetpalai.ac.in" class="connect-icon" aria-label="Email">
+            <svg class="connect-icon-logo" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="1.6" />
+              <polyline points="4,7 12,12 20,7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="starfield.js"></script>
+    <script>
+const projects = [
+  {
+    title: "Gamified Task Manage System",
+    desc: "A gamified app for personal growth with task tracking, rewards, social features, and AI tips.",
+    git: "https://github.com/Adii246/Tasks-manage"
+  },
+  {
+    title: "Business Risk Assessment Platform",
+    desc: "A data-driven tool helping first-time founders assess startup risks and build a clear roadmap.",
+    git: "https://github.com/Adii246/Nexus-Project"
+  },
+  {
+    title: "Intelligent CCTV Footage Analysis using Natural Language and Image-Based Search",
+    desc: "An AI surveillance assistant for smart search, image queries, and real-time activity monitoring.",
+    git: "https://github.com/Adii246/VIDEO_ANALYSIS"
+  }
+  // Add more projects as needed
+];
+
+let currentProject = 0; // index of the main (center) project
+
+function getWrappedIndex(index) {
+  const total = projects.length;
+  if (total === 0) return 0;
+  return ((index % total) + total) % total;
+}
+
+function showProjects() {
+  if (!projects.length) return;
+
+  const centerIndex = getWrappedIndex(currentProject);
+  const leftIndex = getWrappedIndex(centerIndex - 1);
+  const rightIndex = getWrappedIndex(centerIndex + 1);
+
+  const center = projects[centerIndex];
+  const left = projects[leftIndex];
+  const right = projects[rightIndex];
+
+  // Center card
+  document.getElementById('project-title-center').textContent = center.title;
+  document.getElementById('project-desc-center').textContent = center.desc;
+  document.getElementById('project-git-center').href = center.git;
+
+  // Left card
+  document.getElementById('project-title-left').textContent = left.title;
+  document.getElementById('project-desc-left').textContent = left.desc;
+  document.getElementById('project-git-left').href = left.git;
+
+  // Right card
+  document.getElementById('project-title-right').textContent = right.title;
+  document.getElementById('project-desc-right').textContent = right.desc;
+  document.getElementById('project-git-right').href = right.git;
+}
+
+document.getElementById('next-project-btn').addEventListener('click', () => {
+  currentProject = getWrappedIndex(currentProject + 1);
+  showProjects();
+});
+
+document.getElementById('prev-project-btn').addEventListener('click', () => {
+  currentProject = getWrappedIndex(currentProject - 1);
+  showProjects();
+});
+
+// Initialize with the first project in the center
+showProjects();
+</script>
+  </body>
+</html>
